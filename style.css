@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*ÁREA RODAPE SUPERIOR*/
+
+.container-area-navegacao {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #582d6b;
+}
+.container-area-navegacao a {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+/*ÁREA BANNER */
+
+.img-banner {
+    background-image: url('IMAGENS/capa.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*ÁREA SINOPSE */
+
+.container-secao-sinopse {
+    text-align: center;
+    width: 100%;
+    margin: 5px auto;
+    padding: 50px;
+}
+.container-secao-sinopse h1,h2,p {
+    margin: 20px;
+}
+.container-secao-sinopse h1 {
+    font-size: 30px;
+}
+.container-secao-sinopse h2 {
+    padding-bottom:20px ;
+}
+.container-secao-sinopse p {
+    text-align: justify;
+    line-height: 30px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+/* ÁREA DISPONIBILIDADE */
+
+.container-secao-disponibilidade {
+    width: 100%;
+    background-color: #4c255d;
+    padding: 30px;
+    text-align: center;
+}
+.container-secao-disponibilidade h2 {
+    color: white;
+    padding: 10px;
+}
+.container-secao-disponibilidade img {
+    width: 50%;
+    box-shadow: 0 0 10px white;
+    margin-bottom: 10px;
+}
+.container-secao-disponibilidade p {
+    color: white;
+    text-align: justify;
+    line-height: 30px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+/*ÁREA TEMPORADAS */
+
+.container-secao-temporadas {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+.container-secao-temporadas h2 {
+    margin-bottom: 50px;
+}
+.container-temporadas {
+    width: 70%;
+    margin: 10px auto 40px;
+    background-color: rgb(240, 239, 239);
+    padding: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+/*ÁREA IMAGENS */
+
+.container-secao-imagens {
+    text-align: center;
+    width: 100%;
+    background-color: #4c255d;
+    padding: 30px;
+}
+.container-secao-imagens h2 {
+    color: white;
+    margin-bottom: 50px;
+}
+.galeria {
+    white-space: nowrap;
+    overflow: auto;
+    width: 70%;
+    margin: 5px auto;
+    
+}
+.galeria img {
+    width: 350px;
+    height: 30vh;
+    margin: 20px;
+    box-shadow: 0 0 10px white;
+}
+
+.container-secao-imagens p {
+    text-align: left;
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 10px 10px 0px;
+    color: white;
+    font-weight: bold;
+}
+.container-secao-imagens a {
+    font-weight: bold;
+    color: blue;
+}
+
+/* ÁREA DIREITOS */
+
+.secao-direitos {
+    background-color: #4c255d;;
+    padding: 8px;
+    box-shadow: 0 0 10px white;
+}
+.secao-direitos p, span {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
